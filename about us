@@ -1,0 +1,101 @@
+# codes about us source code
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            about us 
+        </title>
+        <!-- Link to Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Link to Tailwind CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+      <!-- Link to Flowbite CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/flowbite@1.0.1/dist/flowbite.min.css" rel="stylesheet">
+      <!-- Link to custom CSS -->
+      <link rel="stylesheet" href="styles.css">
+        <style>
+            a{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            button{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            h1{
+                font-size: large;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            h2{
+                font-family: 'Times New Roman', Times, serif;
+            }
+              p{
+                text-align: center;
+                font-size: large;
+                font-family: 'Times New Roman', Times, serif;
+              } 
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="https://www.mustakbil.com/companies/company/81143">Hazma Traders</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="website page.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our services.html">Our Services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+          <!-- Tailwind Hero Section -->
+      <section class="bg-blue-600 text-white p-10">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Welcome to Hamza Traders </h1>
+            <p class="mt-4 text-lg">We provide amazing Mobile services.</p>
+            <button class="bg-yellow-500 text-blue-900 hover:bg-yellow-400 hover:text-blue-800 rounded-full px-6 py-2 mt-6">Learn More</button>
+        </div>
+        </section>
+        <section class="py-16">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-semibold mb-8">About Us</h2>
+                <div class="flowbite">
+                    <div class="flowbite-item">
+                        <div class="flowbite-icon">
+                           <i class="fas fa-cogs"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>    
+            <p>
+                <i>
+                We have open our first store in 2012 in Gujranwala. with the passage of time Allah gave </br>us 
+                success and started to incrase our stores in different areas of Gujranwala.<br>In 2016 we have 
+                opened our first store in out of city in Hafizabad.Now we have earned to much money.<br> Our motive
+                is to provide a best and affordable services to our costumers.
+                </i> 
+            </p>
+        </div>
+       </br>
+       </br> 
+    </br>
+</br>
+        <!-- Bootstrap Footer -->
+      <footer class="bg-dark text-light text-center py-4">
+          <p>&copy; 2023 Hamza Traders</p>
+        </footer>
+    </body>
+</html>
